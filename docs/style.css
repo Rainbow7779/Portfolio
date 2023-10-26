@@ -1,0 +1,15 @@
+ 
+ 
+ div.intro {
+     color: yellow;
+     background-color: blue;
+ }
+ div.image123{
+ display:flex;
+     background-color: blue;
+ }
+ div.image12{
+ display:flex;
+     color: yellow;
+     background-color: blue;
+ }
