@@ -1,16 +1,10 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <!-- What's in the <head> element is a "meta" area not for display. 
-            It holds important information about the website's contents.
-            The text inside the <title> element does show in the top tab of a web browser. 
-             The <head> is where we will include info about styling the site, too. -->
         <title>Home Page</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- Here is a place where we can add a little styling code called CSS to this page. 
-            I used it to apply a background color to the body element.
-        -->
+        <link rel="stylesheet" type="text/css" href="style.css" />
         <style>
             body {
                 background: Orange;
@@ -24,27 +18,48 @@
           </style>
     </head>
     <body>
-        <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
-        <h1>Home Page</h1> <img sizes="2"><img src="images/html%20logo.jpg"></img>
             <nav>
-                <ul>
+                <center>
                     <h2>Menus</h2>
-                    <li><a href="index.html">Homepage</a></li>
-                    <li><a href="file:///C:/Users/caleb/OneDrive/Desktop/html-starter-pack/gallery.html">Gallery</a></li>
-                    <li><a href="file:///C:/Users/caleb/OneDrive/Desktop/html-starter-pack/resume.html">Resume</a></li>
-                </ul>
+                    <a href="index.html"><strong>Homepage | </strong></a>
+                    <a href="gallery.html"><strong>Gallery |</strong></a>
+                    <a href="resume.html"><strong>Resume |</strong></a>
+                    <a href="reflection.html"><strong>Reflection Essay</strong></a>
+                </center>
+                <center>
+                    <h1>Home Page</h1>
+                </center>
             </nav>
+        <div class="intro">
+           <center>
             <h2>Introduction</h2>
         <p>Greetings, my name is Caleb Rainbow and I am a <strong>Human Factors and Design Psychology</strong> major.
         I am also minoring in Military Studies. I plan to commission as an Officer in the 
         Army on May 2024.</p>
-        <figure>
-            <img src="images/newt-mosaic4.png"/>
-            <figcaption>a stylized image of a firebelly newt that Dr. B made as a web logo on <a href="https://newtfire.org">newtfire.org</a></figcaption>
-        </figure> 
-        <figure>
-            <img src="D:\Senior\DIGIT 100\cockatoo.jpg"/>
-            <figcaption>a stylized image of a cockatoo that Caleb inserted as an example. View more information on cockatoos here <a href="">https://en.wikipedia.org/wiki/Cockatoo</a></figcaption>
-        </figure>
+           </center>
+        </div>
+       <div class="image123">
+           <figure>
+            <img src="images/psychology.jpg"
+                width="300"
+                height="300"
+            />
+            <figcaption>Psychology Major</figcaption>
+          </figure> 
+          <figure>
+            <img src="images/pennstate.jpg"
+                width="300"
+                height="300"
+            />
+              <figcaption>Penn State Undergraduate Student</figcaption>
+          </figure>
+          <figure>
+            <img src="images/army.jpg"
+                width="300"
+                height="300"
+            />
+                <figcaption>Army ROTC Cadet</figcaption>
+          </figure>
+       </div>
     </body>
 </html>
